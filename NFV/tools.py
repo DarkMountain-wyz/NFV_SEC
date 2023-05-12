@@ -4,7 +4,7 @@ from NFV.properties import *
 
 def lawOfCosines(side1, side2, angle):
     """
-    余弦定理，已知两边及夹角求第三边
+    余弦定理
 
     :param side1: a
     :param side2: b
@@ -29,7 +29,8 @@ def lawOfSine(side1, side2, angle2):
 
 def getAngularVelocity(altitude):
     """
-    Calculate angular velocity from the law of universal gravitation and altitude.
+    计算角速度
+
     :param altitude: the altitude of LEO satellite.
     :return: the angular velocity.
     """
